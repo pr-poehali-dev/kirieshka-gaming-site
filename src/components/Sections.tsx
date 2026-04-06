@@ -231,21 +231,33 @@ export function SubscribeSection() {
             <Icon name="Youtube" size={36} className="text-white" />
           </div>
           <h3 className="font-bold text-3xl text-white mb-3" style={{ fontFamily: "Oswald, sans-serif" }}>
-            320 000+ подписчиков
+            15K+ подписчиков
           </h3>
           <p className="text-gray-400 mb-8" style={{ fontFamily: "Rubik, sans-serif" }}>
             Присоединяйся к сообществу — нажми кнопку и подпишись прямо сейчас
           </p>
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="neon-btn inline-flex items-center gap-3 bg-[#ff4500] text-white font-bold uppercase tracking-wider px-10 py-4 rounded-lg text-lg"
-            style={{ fontFamily: "Oswald, sans-serif" }}
-          >
-            <Icon name="Youtube" size={24} />
-            Подписаться на YouTube
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="neon-btn inline-flex items-center gap-3 bg-[#ff4500] text-white font-bold uppercase tracking-wider px-10 py-4 rounded-lg text-lg"
+              style={{ fontFamily: "Oswald, sans-serif" }}
+            >
+              <Icon name="Youtube" size={24} />
+              Подписаться на YouTube
+            </a>
+            <a
+              href="https://t.me/@Kirieska228bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 text-white font-bold uppercase tracking-wider px-10 py-4 rounded-lg text-lg"
+              style={{ fontFamily: "Oswald, sans-serif", background: "#229ED9" }}
+            >
+              <Icon name="Send" size={24} />
+              Вступить прямо сейчас
+            </a>
+          </div>
           <p className="text-gray-600 text-sm mt-6" style={{ fontFamily: "Rubik, sans-serif" }}>
             Бесплатно · Новые видео каждую неделю · Без спама
           </p>

@@ -41,9 +41,8 @@ export default function HeroSection() {
           style={{ animationDelay: "0.5s", opacity: 0 }}
         >
           {[
-            { num: "320K+", label: "подписчиков" },
-            { num: "450+", label: "видео" },
-            { num: "2.1M", label: "просмотров в мес" },
+            { num: "15K+", label: "подписчиков" },
+            { num: "20+", label: "видео" },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <div className="font-bold text-3xl md:text-4xl text-white" style={{ fontFamily: "Oswald, sans-serif" }}>{s.num}</div>
@@ -66,14 +65,7 @@ export default function HeroSection() {
             <Icon name="Youtube" size={20} />
             Смотреть канал
           </a>
-          <button
-            onClick={() => { const el = document.getElementById("videos"); if (el) el.scrollIntoView({ behavior: "smooth" }); }}
-            className="neon-btn flex items-center gap-2 border border-gray-600 text-gray-300 hover:text-white font-semibold uppercase tracking-wider px-8 py-3.5 rounded text-base hover:border-[#ff4500] transition-colors"
-            style={{ fontFamily: "Oswald, sans-serif" }}
-          >
-            <Icon name="Play" size={20} />
-            Видео
-          </button>
+
         </div>
       </div>
 

@@ -1,7 +1,6 @@
 export const NAV_ITEMS = [
   { id: "home", label: "Главная" },
   { id: "about", label: "О канале" },
-  { id: "videos", label: "Видео" },
   { id: "subscribe", label: "Подписка" },
 ];
 

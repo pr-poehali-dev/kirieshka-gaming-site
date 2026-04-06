@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import { AboutSection, VideosSection, SubscribeSection, Footer } from "@/components/Sections";
+import { AboutSection, SubscribeSection, Footer } from "@/components/Sections";
 import { NAV_ITEMS } from "@/constants/channel";
 
 const Index = () => {
@@ -28,7 +28,6 @@ const Index = () => {
       <Header active={activeSection} setActive={setActiveSection} />
       <HeroSection />
       <AboutSection />
-      <VideosSection />
       <SubscribeSection />
       <Footer />
     </div>

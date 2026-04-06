@@ -38,7 +38,7 @@ export function AboutSection() {
                 style={{ boxShadow: "0 4px 20px rgba(255,69,0,0.3)" }}
               >
                 <Icon name="Award" size={16} className="text-[#ff6b1a]" />
-                <span className="text-sm text-white" style={{ fontFamily: "Oswald, sans-serif" }}>С 2020 года</span>
+                <span className="text-sm text-white" style={{ fontFamily: "Oswald, sans-serif" }}>С 2025 года</span>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export function AboutSection() {
             </p>
 
             <p className="text-gray-400 leading-relaxed mb-8" style={{ fontFamily: "Rubik, sans-serif" }}>
-              Более <span className="text-white font-medium">4 лет</span> в YouTube. Прошёл сотни игр, собрал тысячи часов контента и продолжаю каждый день. Канал без понтов — только честно, смешно и по делу.
+              Более <span className="text-white font-medium">1 года</span> в YouTube. Прошёл сотни игр, собрал тысячи часов контента и продолжаю каждый день. Канал без понтов — только честно, смешно и по делу.
             </p>
 
             <div className="flex flex-wrap gap-2">
